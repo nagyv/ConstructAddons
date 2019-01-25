@@ -1,0 +1,39 @@
+{
+	"languageTag": "en-US",
+	"fileDescription": "Strings for ParallaxMap.",
+	"text": {
+		"effects": {
+			"parallaxmap": {
+				"name": "ParallaxMap",
+				"description": "Parallax Mapping based on depth map",
+				"help-url": "",
+				"parameters": {
+					"viewxposition": {
+						"name": "ViewXPosition",
+						"desc": "ViewXPosition (0-1)"
+					},
+					"viewyposition": {
+						"name": "ViewYPosition",
+						"desc": "ViewYPosition (0-1)"
+					},
+					"viewzposition": {
+						"name": "ViewZPosition",
+						"desc": "ViewZPosition (0-1)"
+					},
+					"heightscale": {
+						"name": "HeightScale",
+						"desc": "HeightScale (0-1)"
+					},
+					"windowxresolution": {
+						"name": "WindowXResolution",
+						"desc": "WindowXResolution (pixels)"
+					},
+					"windowyresolution": {
+						"name": "WindowYResolution",
+						"desc": "WindowYResolution (pixels)"
+					}
+				}
+			}
+		}
+	}
+}

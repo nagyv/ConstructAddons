@@ -1,0 +1,73 @@
+{
+	"is-c3-addon": true,
+	"type": "effect",
+	"name": "ParallaxMap",
+	"id": "parallaxmap",
+	"version": "0.9.4.2",
+	"author": "Mikal",
+	"website": "https://www.construct.net",
+	"documentation": "https://www.construct.net",
+	"description": "Parallax Mapping using depth map",
+	"file-list": [
+		"lang/en-US.json",
+		"addon.json",
+		"effect.fx"
+	],
+
+	"category": "distortion",
+	"blends-background": true,
+	"cross-sampling": false,
+	"preserves-opaqueness": false,
+	"animated": false,
+	"must-predraw": false,
+	"extend-box": {
+		"horizontal": 0,
+		"vertical": 0
+	},
+	"is-deprecated": false,
+
+	"parameters": [
+		{
+			"id": "viewxposition",
+			"c2id": "viewxposition",
+			"type": "float",
+			"initial-value": 0.5,
+			"uniform": "ViewXPosition"
+		},
+		{
+			"id": "viewyposition",
+			"c2id": "viewyposition",
+			"type": "float",
+			"initial-value": 0.5,
+			"uniform": "ViewYPosition"
+		},
+		{
+			"id": "viewzposition",
+			"c2id": "viewzposition",
+			"type": "float",
+			"initial-value": 1.0,
+			"uniform": "ViewZPosition"
+		},
+		{
+			"id": "heightscale",
+			"c2id": "heightscale",
+			"type": "float",
+			"initial-value": 0.1,
+			"uniform": "HeightScale"
+		},
+		{
+			"id": "windowxresolution",
+			"c2id": "windowxresolution",
+			"type": "float",
+			"initial-value": 640,
+			"uniform": "WindowXResolution"
+		},
+		{
+			"id": "windowyresolution",
+			"c2id": "windowyresolution",
+			"type": "float",
+			"initial-value": 480,
+			"uniform": "WindowYResolution"
+		}
+	]
+}
