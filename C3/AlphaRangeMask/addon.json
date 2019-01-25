@@ -1,0 +1,52 @@
+{
+	"is-c3-addon": true,
+	"type": "effect",
+	"name": "AlphaRangeMask",
+	"id": "AlphaRangeMask",
+	"version": "1.0.0.0",
+	"author": "Mikal",
+	"website": "https://www.construct.net",
+	"documentation": "https://www.construct.net",
+	"description": "Pass background if Alpha mask outside range, with InvertMask option",
+	"file-list": [
+		"lang/en-US.json",
+		"addon.json",
+		"effect.fx"
+	],
+
+	"category": "blend",
+	"blends-background": true,
+	"cross-sampling": false,
+	"preserves-opaqueness": false,
+	"animated": false,
+	"must-predraw": true,
+	"extend-box": {
+		"horizontal": 0,
+		"vertical": 0
+	},
+	"is-deprecated": false,
+
+	"parameters": [
+		{
+			"id": "limitfront",
+			"c2id": "limitfront",
+			"type": "float",
+			"initial-value": 0.0,
+			"uniform": "LimitFront"
+		},
+		{
+			"id": "limitback",
+			"c2id": "limitback",
+			"type": "float",
+			"initial-value": 1.0,
+			"uniform": "LimitBack"
+		},
+		{
+			"id": "invertmask",
+			"c2id": "invertmask",
+			"type": "float",
+			"initial-value": 0.0,
+			"uniform": "InvertMask"
+		}
+	]
+}
