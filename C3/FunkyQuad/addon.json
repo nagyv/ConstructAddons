@@ -1,0 +1,31 @@
+﻿{
+	"is-c3-addon": true,
+	"type": "plugin",
+	"name": "FunkyQuad",
+	"id": "FunkyQuad",
+	"version": "0.5.2.0",
+	"author": "Mikal",
+	"website": "https://www.construct.net",
+	"documentation": "https://www.construct.net",
+	"description": "Draw Quad with arbitrary vertices, but funky texturing.",
+	"editor-scripts": [
+						"plugin.js",
+						"type.js",
+						"instance.js"
+					],
+	"file-list": [
+		"c3runtime/plugin.js",
+		"c3runtime/type.js",
+		"c3runtime/instance.js",
+		"c3runtime/conditions.js",
+		"c3runtime/actions.js",
+		"c3runtime/expressions.js",
+		"lang/en-US.json",
+		"aces.json",
+		"addon.json",
+		"icon.svg",
+		"plugin.js",
+		"type.js",
+		"instance.js"
+	]
+}

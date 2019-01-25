@@ -1,0 +1,193 @@
+﻿{
+	"languageTag": "en-US",
+	"fileDescription": "Strings for FunkyQuad Plugin.",
+	"text": {
+		"plugins": {
+			"funkyquad": {
+				"name": "FunkyQuad",
+				"description": "Draw Quad with arbitrary vertices, but funky texturing.",
+				"help-url": "https://www.construct.net",
+				"properties": {
+					"edit-image": {
+						"name": "Image",
+						"desc": "Click to edit the object's image.",
+						"link-text": "Edit"
+					},
+					"make-original-size": {
+						"name": "Size",
+						"desc": "Click to set the object to the same size as its image.",
+						"link-text": "Make 1:1"
+					}
+				},
+				"aceCategories": {
+					"custom": "Custom"
+				},
+				"conditions": {
+				},
+				"actions": {
+					"setquadposition": {
+						"list-name": "SetQuadPosition",
+						"display-text": "Set Quad Position to {0},{1}  {2},{3}  {4},{5}  {6},{7}",
+						"description": "SetQuadPosition",
+					    "params": {
+					        "topleftx": {
+					            "name": "TopLeftX",
+					            "desc": "Top Left X"
+					        },
+									"toplefty": {
+					            "name": "TopLeftY",
+					            "desc": "Top Left Y"
+					        },
+									"toprightx": {
+					            "name": "TopRightX",
+					            "desc": "Top Right X"
+					        },
+									"toprighty": {
+					            "name": "TopRightY",
+					            "desc": "Top Right Y"
+					        },
+									"bottomleftx": {
+					            "name": "BottomLeftX",
+					            "desc": "Bottom Left X"
+					        },
+									"bottomlefty": {
+					            "name": "BottomLeftY",
+					            "desc": "Bottom Left Y"
+					        },
+									"bottomrightx": {
+					            "name": "BottomRightX",
+					            "desc": "Bottom Right X"
+					        },
+									"bottomrighty": {
+					            "name": "BottomRightY",
+					            "desc": "Bottom Right Y"
+					        }
+					    }
+					},
+					"setfqtlx": {
+						"list-name": "SetFQTLX",
+						"display-text": "Set Top Left X to {0}",
+						"description": "Set Top Left X",
+					    "params": {
+					        "setvalue": {
+					            "name": "Value",
+					            "desc": "Value"
+					        }
+					    }
+					},
+					"setfqtly": {
+						"list-name": "SetFQTLY",
+						"display-text": "Set Top Left Y to {0}",
+						"description": "Set Top Left Y",
+					    "params": {
+					        "setvalue": {
+					            "name": "Value",
+					            "desc": "Value"
+					        }
+					    }
+					},
+					"setfqtrx": {
+						"list-name": "SetFQTRX",
+						"display-text": "Set Top Right X to {0}",
+						"description": "Set Top Right X",
+					    "params": {
+					        "setvalue": {
+					            "name": "Value",
+					            "desc": "Value"
+					        }
+					    }
+					},
+					"setfqtry": {
+						"list-name": "SetFQTRY",
+						"display-text": "Set Top Right Y to {0}",
+						"description": "Set Top Right Y",
+					    "params": {
+					        "setvalue": {
+					            "name": "Value",
+					            "desc": "Value"
+					        }
+					    }
+					},
+					"setfqblx": {
+						"list-name": "SetFQBLX",
+						"display-text": "Set Bottom Left X to {0}",
+						"description": "Set Bottom Left X",
+					    "params": {
+					        "setvalue": {
+					            "name": "Value",
+					            "desc": "Value"
+					        }
+					    }
+					},
+					"setfqbly": {
+						"list-name": "SetFQBLY",
+						"display-text": "Set Bottom Left Y to {0}",
+						"description": "Set Bottom Left Y",
+					    "params": {
+					        "setvalue": {
+					            "name": "Value",
+					            "desc": "Value"
+					        }
+					    }
+					},
+					"setfqbrx": {
+						"list-name": "SetFQBRX",
+						"display-text": "Set Bottom Right X to {0}",
+						"description": "Set Bottom Right X",
+					    "params": {
+					        "setvalue": {
+					            "name": "Value",
+					            "desc": "Value"
+					        }
+					    }
+					},
+					"setfqbry": {
+						"list-name": "SetFQBRY",
+						"display-text": "Set Bottom Right Y to {0}",
+						"description": "Set Bottom Right Y",
+					    "params": {
+					        "setvalue": {
+					            "name": "Value",
+					            "desc": "Value"
+					        }
+					    }
+					}
+				},
+				"expressions": {
+					"FQTLX": {
+						"description": "Top Left X",
+						"translated-name": "FQTLX"
+					},
+					"FQTLY": {
+						"description": "Top Left Y",
+						"translated-name": "FQTLY"
+					},
+					"FQTRX": {
+						"description": "Top Right X",
+						"translated-name": "FQTRX"
+					},
+					"FQTRY": {
+						"description": "Top Right Y",
+						"translated-name": "FQTRY"
+					},
+					"FQBLX": {
+						"description": "Bottom Left X",
+						"translated-name": "FQBLX"
+					},
+					"FQBLY": {
+						"description": "Bottom Left Y",
+						"translated-name": "FQBLY"
+					},
+					"FQBRX": {
+						"description": "Bottom Right X",
+						"translated-name": "FQBRX"
+					},
+					"FQBRY": {
+						"description": "Bottom Right Y",
+						"translated-name": "FQBRY"
+					}
+				}
+			}
+		}
+	}
+}

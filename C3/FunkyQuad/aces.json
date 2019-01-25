@@ -1,0 +1,193 @@
+﻿{
+	"custom": {
+		"conditions": [
+		],
+		"actions": [
+			{
+			  "id": "setquadposition",
+			  "scriptName": "SetQuadPosition",
+			  "highlight": true,
+			  "params": [
+			    {
+			      "id": "topleftx",
+			      "type": "number"
+			    },
+					{
+			      "id": "toplefty",
+			      "type": "number"
+			    },
+					{
+			      "id": "toprightx",
+			      "type": "number"
+			    },
+					{
+			      "id": "toprighty",
+			      "type": "number"
+			    },
+					{
+			      "id": "bottomleftx",
+			      "type": "number"
+			    },
+					{
+			      "id": "bottomlefty",
+			      "type": "number"
+			    },
+					{
+			      "id": "bottomrightx",
+			      "type": "number"
+			    },
+					{
+			      "id": "bottomrighty",
+			      "type": "number"
+			    }
+			  ]
+			},
+			{
+			  "id": "setfqtlx",
+			  "scriptName": "SetFQTLX",
+			  "highlight": false,
+			  "params": [
+			    {
+			      "id": "setvalue",
+			      "type": "number"
+			    }
+			  ]
+			},
+			{
+			  "id": "setfqtly",
+			  "scriptName": "SetFQTLY",
+			  "highlight": false,
+			  "params": [
+			    {
+			      "id": "setvalue",
+			      "type": "number"
+			    }
+			  ]
+			},
+			{
+			  "id": "setfqtrx",
+			  "scriptName": "SetFQTRX",
+			  "highlight": false,
+			  "params": [
+			    {
+			      "id": "setvalue",
+			      "type": "number"
+			    }
+			  ]
+			},
+			{
+			  "id": "setfqtry",
+			  "scriptName": "SetFQTRY",
+			  "highlight": false,
+			  "params": [
+			    {
+			      "id": "setvalue",
+			      "type": "number"
+			    }
+			  ]
+			},
+			{
+			  "id": "setfqblx",
+			  "scriptName": "SetFQBLX",
+			  "highlight": false,
+			  "params": [
+			    {
+			      "id": "setvalue",
+			      "type": "number"
+			    }
+			  ]
+			},
+			{
+			  "id": "setfqbly",
+			  "scriptName": "SetFQBLY",
+			  "highlight": false,
+			  "params": [
+			    {
+			      "id": "setvalue",
+			      "type": "number"
+			    }
+			  ]
+			},
+			{
+			  "id": "setfqbrx",
+			  "scriptName": "SetFQBRX",
+			  "highlight": false,
+			  "params": [
+			    {
+			      "id": "setvalue",
+			      "type": "number"
+			    }
+			  ]
+			},
+			{
+			  "id": "setfqbry",
+			  "scriptName": "SetFQBRY",
+			  "highlight": false,
+			  "params": [
+			    {
+			      "id": "setvalue",
+			      "type": "number"
+			    }
+			  ]
+			}
+		],
+		"expressions": [
+			{
+				"id": "FQTLX",
+				"expressionName": "FQTLX",
+				"scriptName": "FQTLX",
+				"highlight": false,
+				"returnType": "number"
+			},
+			{
+				"id": "FQTLY",
+				"expressionName": "FQTLY",
+				"scriptName": "FQTLY",
+				"highlight": false,
+				"returnType": "number"
+			},
+			{
+				"id": "FQTRX",
+				"expressionName": "FQTRX",
+				"scriptName": "FQTRX",
+				"highlight": false,
+				"returnType": "number"
+			},
+			{
+				"id": "FQTRY",
+				"expressionName": "FQTRY",
+				"scriptName": "FQTRY",
+				"highlight": false,
+				"returnType": "number"
+			},
+			{
+				"id": "FQBLX",
+				"expressionName": "FQBLX",
+				"scriptName": "FQBLX",
+				"highlight": false,
+				"returnType": "number"
+			},
+			{
+				"id": "FQBLY",
+				"expressionName": "FQBLY",
+				"scriptName": "FQBLY",
+				"highlight": false,
+				"returnType": "number"
+			},
+			{
+				"id": "FQBRX",
+				"expressionName": "FQBRX",
+				"scriptName": "FQBRX",
+				"highlight": false,
+				"returnType": "number"
+			},
+			{
+				"id": "FQBRY",
+				"expressionName": "FQBRY",
+				"scriptName": "FQBRY",
+				"highlight": false,
+				"returnType": "number"
+			}
+		]
+	}
+}
