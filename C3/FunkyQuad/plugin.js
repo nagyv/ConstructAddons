@@ -12,7 +12,7 @@
 	const PLUGIN_ID = "FunkyQuad";
 	////////////////////////////////////////////
 
-	const PLUGIN_VERSION = "0.5.2.0";
+	const PLUGIN_VERSION = "0.5.3.0";
 	const PLUGIN_CATEGORY = "general";
 
 	let app = null;
